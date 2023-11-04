@@ -1,0 +1,2 @@
+# ConditionalAccessforZeroTrustResourcesTerraform
+This Repository Creates Sample Conditional Access Policies based on ConditionalAccessforZeroTrustResources framework from Microsoft 
