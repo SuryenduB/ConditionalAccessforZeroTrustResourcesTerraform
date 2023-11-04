@@ -10,8 +10,6 @@ on:
     branches:
     - master
     
-
-
 #Special permissions required for OIDC authentication
 permissions:
   id-token: write
@@ -119,7 +117,7 @@ jobs:
         echo "$SUMMARY" >> $GITHUB_STEP_SUMMARY
       
     #If this is a PR post the changes
-    
+
     - name: Push Terraform Output to PR
       if: github.ref != 'refs/heads/master'
       uses: actions/github-script@v6
